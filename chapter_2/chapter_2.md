@@ -35,15 +35,15 @@
 
 4.b. Describe three real-life applications in which _regression_ might be useful. Describe the response, as well as the predictors. Is the goal of each application inference or prediction? Explain your answer.
 
-1. Impact of Advertising on Sales: the goal is to understand which relationship contributes the most to the sales of a product given its past advertising expenditure. The response variable is the number of sales or the total sales value, given the different advertising means (predictors): Radio, TV, Web. The task is to infer (inference) which advertising means is contributing the most to it.    
-2. Salary Analysis: the goal is to understand the relationship between salary values measured in thousands of USD dollars, and education, country, age. The response variable is the salary value, the predictor variables are the education, the state, and the age. The task is an is to infer which predictor contributes the most to the salary.    
-3. Grade estimate: the goal is to estimate the grade the students will get to exams given the history of exams. The response variable is the grade value, given (the predictors) a student id, course id, professor id, hours studies for the exam.
+- Impact of Advertising on Sales: the goal is to understand which relationship contributes the most to the sales of a product given its past advertising expenditure. The response variable is the number of sales or the total sales value, given the different advertising means (predictors): Radio, TV, Web. The task is to infer (inference) which advertising means is contributing the most to it.    
+- Salary Analysis: the goal is to understand the relationship between salary values measured in thousands of USD dollars, and education, country, age. The response variable is the salary value, the predictor variables are the education, the state, and the age. The task is an is to infer which predictor contributes the most to the salary.    
+- Grade estimate: the goal is to estimate the grade the students will get to exams given the history of exams. The response variable is the grade value, given (the predictors) a student id, course id, professor id, hours studies for the exam.
 
 4.c. Describe three real-life applications in which _cluster analysis_ might be useful.   
 
-1. Marketing: finding groups of customers with similar behavior given a large database of customer data containing their properties and past buying records    
-2. Insurance: identifying groups of motor insurance policy holders with a high average claim cost    
-3. Earthquake studies: clustering observed earthquake epicenters to identify dangerous zones    
+- Marketing: finding groups of customers with similar behavior given a large database of customer data containing their properties and past buying records    
+- Insurance: identifying groups of motor insurance policy holders with a high average claim cost    
+- Earthquake studies: clustering observed earthquake epicenters to identify dangerous zones    
 
 5. Pros and Cons of a very flexible vs less flexible approach for regression or classification? Under what circumstances might a more flexible approach be preferred to a less flexible approach? When might a less flexible approach be preferred?    
 - A flexible approach can fit several functions f, which requires to fit many different parameters, on a huge number of predictors and observations. However, it can lead to overfitting the data to quickly, which means that it models also the noise as well.
